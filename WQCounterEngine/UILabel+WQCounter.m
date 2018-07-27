@@ -21,11 +21,10 @@
                  completion:(WQCompletionBlock)completion {
 
     if (self.animationOptions) {animationOptions = self.animationOptions;}
-    
+    __weak __typeof(self)weakSelf = self;
     [[WQCounterEngine shareEngine] animationFromNumber:numberA toNumber:numberB duration:duration animationOptions:animationOptions currentNumber:^(CGFloat number) {
-
-        format ? self.text = format(number) : nil ;
-
+        __strong __typeof(weakSelf)strongSelf = weakSelf;
+        format ? strongSelf.text = format(number) : nil ;
     } completion:completion];
 }
 

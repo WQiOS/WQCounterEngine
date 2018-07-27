@@ -5,7 +5,7 @@ s.name         = "WQCounterEngine"
 s.version      = "0.0.1"
 s.summary      = "一款数字/金额增减动效组件"
 s.description  = <<-DESC
-                 一款数字/金额增减动效组件
+                WQCounterEngine is good!
                  DESC
 s.homepage     = "https://github.com/WQiOS/WQCounterEngine"
 s.license      = "MIT"
