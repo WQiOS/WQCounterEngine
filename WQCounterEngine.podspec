@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "WQCounterEngine"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.summary      = "一款数字/金额增减动效组件"
 s.description  = <<-DESC
                 WQCounterEngine is good!
